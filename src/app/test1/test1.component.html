@@ -1,0 +1,17 @@
+<table>
+  <tr>
+    <td class="firstCol">
+      <input type="text" (input)="intOnly()" [(ngModel)]="myVal">
+    </td>
+    <td class="midCol">
+      <select #t (change)="onChange(t.value)">
+        <option value="0"></option>
+        <option value="1">isPrime</option>
+        <option value="2">isFibonacci</option>
+      </select>
+    </td>
+    <td class="lastCol">
+      <span>{{ myResult }}</span>
+    </td>
+  </tr>
+</table>

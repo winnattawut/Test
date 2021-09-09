@@ -1,0 +1,16 @@
+table {
+  width: 100%;
+  height: 200px;
+}
+
+td {
+  border: 2px solid black;
+}
+
+.firstCol {
+  width: 200px;
+}
+
+.lastCol {
+  width: 300px;
+}

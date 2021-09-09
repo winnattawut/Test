@@ -1,0 +1,9 @@
+<br>
+<input type="text" (input)="search()" [(ngModel)]="txt">
+<table>
+  <tr *ngFor="let x of displayText">
+    <td>
+      {{x}}
+    </td>
+  </tr>
+</table>
