@@ -31,6 +31,7 @@ export class Test1Component implements OnInit {
         this.myVal = tmp.toString();
       }
     }
+    //test
   }
 
   onChange(val) {
