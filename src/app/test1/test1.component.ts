@@ -31,7 +31,8 @@ export class Test1Component implements OnInit {
         this.myVal = tmp.toString();
       }
     }
-    //test
+    var ddlValue = (<HTMLInputElement>document.getElementById('ddl')).value;
+    this.onChange(ddlValue);
   }
 
   onChange(val) {
